@@ -1,3 +1,4 @@
 FROM registry.cn-zhangjiakou.aliyuncs.com/fivewords/centos
-WorkDir /root
+RUN mkdir /root/down
+WorkDir /root/down
 RUN wget https://www.baidu.com/img/flexible/logo/pc/result@2.png -O a.png
