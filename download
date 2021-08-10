@@ -2,3 +2,4 @@ FROM registry.cn-zhangjiakou.aliyuncs.com/fivewords/centos
 RUN mkdir /root/down
 WorkDir /root/down
 RUN wget https://mirror-hk.koddos.net/apache/tomcat/tomcat-10/v10.0.8/bin/apache-tomcat-10.0.8.tar.gz
+RUN wget https://mirror.cogentco.com/pub/apache/maven/maven-3/3.8.1/binaries/apache-maven-3.8.1-bin.tar.gz
